@@ -1,0 +1,32 @@
+
+/*  general
+------------------------------ */
+
+body {
+    background-color: #f8f9fa;
+}
+.bg-light {
+    background-color: #e2e2e2 !important;
+}
+.main-container {
+    margin-top: 8%;
+}
+.well {
+    border:1px solid #e2e2e2;
+}
+.hide {
+    display:none;
+}
+img#img-logo {
+    width: 50px;
+    margin: 0 10px;
+}
+
+/* ---------------------------------------------------------- */
+/* Mobile
+------------------------------------------------------------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .main-container {
+        margin-top: 20%;
+    }
+}
