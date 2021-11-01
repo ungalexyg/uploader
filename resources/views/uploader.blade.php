@@ -54,7 +54,7 @@
                           <p class="lead">
                               This is a demo app that illustrate file upload process with integration to Kaltura. 
                               <br />
-                              It is based on Laravel which load this frontend and handles the business logic in the backedn using a dedicted API.  
+                              It is based on Laravel which load this frontend and handles the business logic in the backend using a dedicated API.  
                               <br />                               
                           </p>    
                         <p>Process details: </p>    
