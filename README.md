@@ -22,6 +22,33 @@
 6. make sure your local host is running, visit the local url with the project
 ```
 
+## Highlights
+
+<p>
+This a simple demo app that illustrate file upload process with integration to Kaltura.
+It is based on Laravel which load this frontend and handles the business logic in the backend using a dedicated API.
+</p>
+
+  <ul>
+    <li>
+      The API accssible via <code>POST /api/upload</code>
+    </li>
+    <li>
+      The API handles business logic in <code>app/Http/Controllers/API/UploadController.php</code>
+    </li>
+    <li>
+      The actual integration to Kaltura happens using custom service provider in <code>app/Services/Kaltura/Kaltura.php</code>
+    </li>
+    <li>
+      The service provider wrap the Kaltura's client, based PHP SDK (namespaced)
+    </li>                                  
+    <li>
+      The frontend uses JQuery & <a target="_blank" href="https://www.dropzone.dev/">Dropzone</a> 
+      to create the upload inputs & interact with the backend API. 
+    </li>                                  
+</ul> 
+
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
